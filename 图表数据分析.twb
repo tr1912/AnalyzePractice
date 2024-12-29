@@ -1,0 +1,598 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20191.19.0123.1906                               -->
+<workbook original-version='18.1' source-build='2019.1.0 (20191.19.0123.1906)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Hair1 (Hair1)' inline='true' name='federated.1r9ilx91hrwrxf1db7bn70j3ojln' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Hair1' name='excel-direct.1enxopu1yrn48o1cqsa520azjrkr'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/wangx-ca/Desktop/2024.12中级认证-工程实践/2024.12中级认证-工程实践/Hair1.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1enxopu1yrn48o1cqsa520azjrkr' name='Hair1' table='[Hair1$]' type='table'>
+          <columns gridOrigin='A1:Q1000:no:A1:Q1000:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Id' ordinal='0' />
+            <column datatype='integer' name='genetics' ordinal='1' />
+            <column datatype='integer' name='hormonal_changes' ordinal='2' />
+            <column datatype='string' name='medical_conditions' ordinal='3' />
+            <column datatype='integer' name='medical_conditions_type' ordinal='4' />
+            <column datatype='string' name='medications_treatments' ordinal='5' />
+            <column datatype='integer' name='medications_treatments_type' ordinal='6' />
+            <column datatype='string' name='nutritional_deficiencies' ordinal='7' />
+            <column datatype='integer' name='nutritional_deficiencies_type' ordinal='8' />
+            <column datatype='string' name='stress' ordinal='9' />
+            <column datatype='integer' name='stress_type' ordinal='10' />
+            <column datatype='integer' name='age' ordinal='11' />
+            <column datatype='integer' name='poor_hair_care_habits' ordinal='12' />
+            <column datatype='integer' name='environmental_factors' ordinal='13' />
+            <column datatype='integer' name='smoking' ordinal='14' />
+            <column datatype='integer' name='weight_loss' ordinal='15' />
+            <column datatype='integer' name='hair_loss' ordinal='16' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Id]</local-name>
+            <parent-name>[Hair1]</parent-name>
+            <remote-alias>Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>genetics</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[genetics]</local-name>
+            <parent-name>[Hair1]</parent-name>
+            <remote-alias>genetics</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hormonal_changes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hormonal_changes]</local-name>
+            <parent-name>[Hair1]</parent-name>
+            <remote-alias>hormonal_changes</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>medical_conditions</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[medical_conditions]</local-name>
+            <parent-name>[Hair1]</parent-name>
+            <remote-alias>medical_conditions</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>medical_conditions_type</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[medical_conditions_type]</local-name>
+            <parent-name>[Hair1]</parent-name>
+            <remote-alias>medical_conditions_type</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>medications_treatments</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[medications_treatments]</local-name>
+            <parent-name>[Hair1]</parent-name>
+            <remote-alias>medications_treatments</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>medications_treatments_type</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[medications_treatments_type]</local-name>
+            <parent-name>[Hair1]</parent-name>
+            <remote-alias>medications_treatments_type</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nutritional_deficiencies</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[nutritional_deficiencies]</local-name>
+            <parent-name>[Hair1]</parent-name>
+            <remote-alias>nutritional_deficiencies</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nutritional_deficiencies_type</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nutritional_deficiencies_type]</local-name>
+            <parent-name>[Hair1]</parent-name>
+            <remote-alias>nutritional_deficiencies_type</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stress</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[stress]</local-name>
+            <parent-name>[Hair1]</parent-name>
+            <remote-alias>stress</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stress_type</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stress_type]</local-name>
+            <parent-name>[Hair1]</parent-name>
+            <remote-alias>stress_type</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[Hair1]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>poor_hair_care_habits</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[poor_hair_care_habits]</local-name>
+            <parent-name>[Hair1]</parent-name>
+            <remote-alias>poor_hair_care_habits</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>environmental_factors</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[environmental_factors]</local-name>
+            <parent-name>[Hair1]</parent-name>
+            <remote-alias>environmental_factors</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>smoking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[smoking]</local-name>
+            <parent-name>[Hair1]</parent-name>
+            <remote-alias>smoking</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weight_loss</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weight_loss]</local-name>
+            <parent-name>[Hair1]</parent-name>
+            <remote-alias>weight_loss</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hair_loss</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hair_loss]</local-name>
+            <parent-name>[Hair1]</parent-name>
+            <remote-alias>hair_loss</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Hair1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:Q1000:no:A1:Q1000:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Id]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.393939' measure-ordering='alphabetic' measure-percentage='0.606061' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;USA&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='压力和是否脱发分析'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hair1 (Hair1)' name='federated.1r9ilx91hrwrxf1db7bn70j3ojln' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1r9ilx91hrwrxf1db7bn70j3ojln'>
+            <column-instance column='[hair_loss]' derivation='Count' name='[cnt:hair_loss:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[hair_loss]' role='measure' type='quantitative' />
+            <column-instance column='[stress]' derivation='None' name='[none:stress:nk]' pivot='key' type='nominal' />
+            <column-instance column='[hair_loss]' derivation='Count' name='[pcto:cnt:hair_loss:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column datatype='string' name='[stress]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1r9ilx91hrwrxf1db7bn70j3ojln].[cnt:hair_loss:qk]' included-values='all' />
+          <filter class='quantitative' column='[federated.1r9ilx91hrwrxf1db7bn70j3ojln].[pcto:cnt:hair_loss:qk:2]' included-values='all' />
+          <slices>
+            <column>[federated.1r9ilx91hrwrxf1db7bn70j3ojln].[cnt:hair_loss:qk]</column>
+            <column>[federated.1r9ilx91hrwrxf1db7bn70j3ojln].[pcto:cnt:hair_loss:qk:2]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1r9ilx91hrwrxf1db7bn70j3ojln].[cnt:hair_loss:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='size-bar' field='[federated.1r9ilx91hrwrxf1db7bn70j3ojln].[pcto:cnt:hair_loss:qk:2]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1r9ilx91hrwrxf1db7bn70j3ojln].[none:stress:nk]' />
+              <wedge-size column='[federated.1r9ilx91hrwrxf1db7bn70j3ojln].[pcto:cnt:hair_loss:qk:2]' />
+              <size column='[federated.1r9ilx91hrwrxf1db7bn70j3ojln].[cnt:hair_loss:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+                <format attr='wrap' value='on' />
+                <format attr='text-orientation' value='0' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.8570718765258789' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{CEEAC6AD-F695-43B0-9492-9EF007B2FA4C}' />
+    </worksheet>
+    <worksheet name='工作表 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{028E15E9-88B7-47C9-8B08-54A1EA2BE7ED}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='压力和是否脱发分析'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1r9ilx91hrwrxf1db7bn70j3ojln].[cnt:hair_loss:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.1r9ilx91hrwrxf1db7bn70j3ojln].[none:stress:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1r9ilx91hrwrxf1db7bn70j3ojln].[cnt:hair_loss:qk]' type='size' />
+            <card AVG='true' KURTOSIS='false' MAX='true' MEDIAN='true' MIN='true' QUART1='false' QUART3='false' SKEWNESS='false' STDEV='false' SUM='true' type='summary' />
+            <card param='[federated.1r9ilx91hrwrxf1db7bn70j3ojln].[none:stress:nk]' type='highlighter' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='98'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1r9ilx91hrwrxf1db7bn70j3ojln].[none:stress:nk]</field>
+          </color-one-way>
+        </highlight>
+        <floating-toolbar-visibility value='1' />
+      </viewpoint>
+      <simple-id uuid='{AEE1754D-A25B-4ECF-AF48-A30D69B6DD66}' />
+    </window>
+    <window class='worksheet' name='工作表 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{24E33CD5-937B-4B66-801E-BB6B0ED32E2D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='164' name='压力和是否脱发分析' width='164'>
+      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
+      jzL2efw/FwTVGs1yIQUAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='工作表 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
