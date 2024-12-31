@@ -1,4 +1,4 @@
-Id,Genetics,Hormonal_Changes,Medical_Conditions,Medications_Treatments,Nutritional_Deficiencies,Stress,Age,Poor_Hair_Care_Habits ,Environmental_Factors,Smoking,Weight_Loss ,Hair Loss
+Id,Genetics,Hormonal_Changes,Medical_Conditions,Medications_Treatments,Nutritional_Deficiencies,Stress,Age,Poor_Hair_Care_Habits,Environmental_Factors,Smoking,Weight_Loss,Hair Loss
 133992,1,0,No Data,No Data,Magnesium deficiency,Moderate,19,1,1,0,0,0
 148393,0,0,Eczema,Antibiotics,Magnesium deficiency,High,43,1,1,0,0,0
 155074,0,0,Dermatosis,Antifungal Cream,Protein deficiency,Moderate,26,1,1,0,1,0
