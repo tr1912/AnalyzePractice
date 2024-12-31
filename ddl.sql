@@ -1,6 +1,8 @@
 CREATE DATABASE `hair_research` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 -- hair_research.hair_origin_data definition
 
+-- hair_research.hair_origin_data definition
+
 CREATE TABLE `hair_origin_data` (
   `id` bigint NOT NULL AUTO_INCREMENT COMMENT 'id',
   `genetics` tinyint NOT NULL COMMENT '是否有头秃家族史：0 无，1 有',
@@ -19,11 +21,6 @@ CREATE TABLE `hair_origin_data` (
   `smoking` tinyint NOT NULL COMMENT '是否吸烟：0不吸烟，1吸烟',
   `weight_loss` tinyint NOT NULL COMMENT '是否经历了显著的体重减轻:0否，1是',
   `hair_loss` tinyint NOT NULL COMMENT '是否脱发: 0 否，1是',
-  `Hormonal Changes` int DEFAULT NULL,
-  `Medical Conditions` varchar(21) DEFAULT NULL,
-  `Medical Conditions type` int DEFAULT NULL,
-  `Medications & Treatments` varchar(25) DEFAULT NULL,
-  `Medications & Treatments type` int DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=199950 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='头发原始数据';
 
